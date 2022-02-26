@@ -1,0 +1,86 @@
+.back-img{
+    background-image: url(../media/devil-may-cry-dante-prime-1-studio-figure-feature.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.background-color{
+    background-color: #6c757d;
+}
+.para{
+    color: white;
+    
+}
+.header{
+    color: white;
+}
+.pad{
+    padding: 0;
+}
+
+.experience-box::after{
+    content: "";
+    width: 40%;
+    height: 4px;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background-color: royalblue;
+}
+.experience-box::before{
+    content: "";
+    width: 40%;
+    height: 4px;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    background-color: royalblue;
+}
+#imgrec{
+    height: 240px;
+}
+
+.experience-box{
+    position: relative;
+}
+
+.experience-icon {
+    top: -20%;
+    left: 43%;
+    position: absolute;
+}
+
+.logo {
+    height: 3rem;
+    padding-left: 2rem;
+}
+.ourteam-heading{
+    color: white;
+}
+.ourTeam-hover{
+    transition: 0.4s;
+}
+.ourTeam-hover:hover{
+    transform: scale(1.1);
+}
+.ongoingprojects-div{
+    overflow: hidden;
+}
+
+
+.feedback-img {
+    max-height: 20rem;
+    width: fit-content;
+}
+
+.navbar-flex {
+    flex-grow: 0 !important;
+}
+
+.feedback-form-textarea {
+    width: 100%;
+    height: 100%; 
+    box-sizing: border-box;
+}
+.footer-list{
+    color: white;
+}
